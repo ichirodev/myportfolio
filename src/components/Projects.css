@@ -1,0 +1,74 @@
+.projects-top {
+    font-family: 'Roboto', sans-serif;
+    color: rgb(235, 190, 94);
+    display: flex;
+    justify-content: center;
+}
+
+.projects-content {
+    max-width: 600px;
+    width: 100%;
+}
+
+.project {
+    display: flex;
+    border-radius: 10px;
+    flex-direction: row;
+    width: 100%;
+    background-color: rgba(22, 22, 22, 0.883);
+    box-shadow: 0 0 3px 0 rgba(14, 14, 14, 0.485);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    min-height: 3rem;
+    transition-duration: 300ms;
+    overflow: hidden;
+}
+
+.project:hover {    
+    box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.331);
+}
+
+.project-image {
+    background-color: rgb(32, 32, 32);
+    width: 110px;
+    min-width: 110px;
+} 
+
+.project-text {
+    padding: 8px;
+    text-decoration: none !important;
+    color: rgb(245, 191, 75);
+    display: flex;
+    flex-direction: column;
+    font-size: 1.2rem;
+}
+
+.project-text-box {
+    font-size: 1rem;
+    display: flex;
+    height: 100%;
+    align-items: center;
+    color: rgb(253, 243, 231);
+}
+
+.my-github {
+    margin-top: 4vh;
+    text-align: center;
+}
+
+.url {
+    text-decoration: none !important;
+    color: rgb(245, 191, 75);
+    background-color: rgb(19, 19, 19);
+    box-shadow: 0 0 10px -4px rgb(0, 0, 0);
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-radius: 3px;
+    transition-duration: 300ms;
+}
+
+.url:hover {
+    background-color: rgb(30, 30, 30);
+}
