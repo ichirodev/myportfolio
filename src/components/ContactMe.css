@@ -1,0 +1,62 @@
+.contact-topcontainer {
+    margin-top: 2vh;
+    display: flex;
+    justify-content: center;   
+    font-family: 'Roboto', sans-serif;
+}
+
+.contact-container {
+    flex-direction: column;
+    width: 100vw;
+    max-width: 600px;
+    border-radius: 6px;
+    margin-top: 30vh;
+    margin-bottom: 35vh;
+}
+
+.contact-information-container {
+    padding: 10px;
+    border-radius: 6px;
+    transition-duration: 300ms;
+}
+
+.contact-me {
+    color: rgb(254, 251, 228);
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: 700;
+    user-select: none;
+    font-size: xx-large;
+    text-align: center;
+    padding-bottom: 1vh;
+    padding-top: 1vh;
+}
+
+.contact-media {
+    color: rgb(211, 211, 211);
+    font-weight: 400;
+    font-size: 1rem;
+    text-align: center;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin-bottom: 2px;
+    transition-duration: 200ms;
+    height: fit-content;
+    align-content: center;
+    justify-content: center;
+}
+
+.contact-media-url {
+    color: rgb(211, 211, 211);
+    text-decoration: none !important;
+}
+
+.contact-media-url:hover {
+    color: rgb(238, 219, 74);
+    transition-duration: 200ms;
+}
+
+.contact-media:hover {
+    font-size: 1.05rem;
+    color: rgb(238, 219, 74);
+}

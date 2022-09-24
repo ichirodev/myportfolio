@@ -1,0 +1,220 @@
+.section-header {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-top: 6px;
+}
+
+.about-photo-container {
+    display: flex;
+    justify-content: center;
+    padding-top: 2vh;
+    padding-bottom: 1vh;
+}
+
+.about-connect-with-me-container {
+    justify-content: center;
+    display: flex;
+}
+
+.about-connect-with-me {
+    color: rgb(255, 251, 212);
+    box-shadow: 0 2px;
+    margin-left: 4px;
+    margin-right: 4px;
+    transition-duration: 300ms;
+}
+.about-cwm-icon {
+    transition-duration: 300ms;
+    color: rgb(255, 251, 212);
+    text-decoration: none !important;
+}
+
+.about-cwm-icon:hover {
+    color: rgb(255, 200, 81);
+}
+.about-connect-with-me:hover {
+    color: rgb(255, 200, 81);
+}
+
+.about-photo {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+}
+
+.section-header-title {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-content: flex-start;
+    align-self: flex-start;
+    font-weight: bold;
+    font-size: x-large;
+    color: rgb(235, 190, 94);
+    width: 100%;
+    padding-bottom: 3px;
+    max-width: 600px;
+    box-shadow: 0 2px 0 0 rgb(37, 37, 37);
+}
+
+.about-header-jp {
+    font-family: 'Noto Sans JP', sans-serif;
+    color: rgb(255, 200, 81);
+    font-weight: bolder;
+    letter-spacing: 2px;
+    font-size:2rem;
+    user-select: none;
+}
+.textholder {
+    text-align: justify;
+    text-justify: inter-word;
+    padding-top: 1vh;
+    padding-bottom: 8px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.textholder-child-box {
+    width: 600px;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+.xtext {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: rgb(246, 246, 246);
+    text-decoration: none !important;
+}
+.xtext-a {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: rgb(248, 225, 110);
+    text-decoration: none !important;
+}
+.more-topcontainer {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.more {
+    justify-content: center;
+    align-items:flex-start;
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    padding-left: 4%;
+    padding-right: 4%;
+}
+
+.more-title {
+    display: flex;
+    align-content: flex-start;
+    align-self: flex-start;
+    font-weight: bold;
+    font-size: x-large;
+    color: rgb(235, 190, 94);
+    width: 100%;
+    padding-bottom: 3px;
+    box-shadow: 0 2px 0 0 rgb(37, 37, 37);
+}
+.more-box {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 4px;
+    margin-top: 4px;
+    padding-top: 8px;
+    margin-right: 1vw;
+    padding-bottom: 8px;
+    padding-right: 4px;
+    padding-left: 4px;
+    width: 100%;
+    background-color: rgba(52, 52, 52, 0.034);
+    border-radius: 2px;
+    box-shadow: 0px 2px 4px rgba(21, 21, 21, 0.703);
+    transition-duration: 250ms;
+}
+
+.more-box:hover {
+    box-shadow: 0px 2px 6px rgba(18, 18, 18, 0.702);
+}
+
+.more-icon {
+    padding-left: 1vw;
+    padding-right: 1vw;
+    align-self: center;
+    color: rgb(235, 190, 94);
+}
+.more-text {
+    margin-left: 2px;
+    color: rgb(246, 246, 246);
+    align-self: flex-end;
+    width: 100%;
+    font-size: 13px;
+    font-weight: 400;
+    font-style: oblique;
+    padding-right: 1vw;
+    align-self: center;
+}
+
+.myskillset-topcontainer {
+    padding-top: 6px;
+}
+
+.myskillset-container {
+    display: flex;
+    justify-content: center;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+.myskillset {
+    max-width: 600px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-basis: 100%;
+}
+
+.break {
+    flex-basis: 100%;
+    height: 0;
+}
+
+.myskillset-skill {
+    color: rgb(179, 165, 134);
+    margin-left: 5px;
+    margin-right: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    justify-content: center;
+    transition-duration: 100ms;
+    background-color: rgba(52, 52, 52, 0.034);
+    border-radius: 4px;
+    box-shadow: 0px 2px 4px rgba(18, 18, 18, 0.429);
+    flex-wrap: wrap;
+    width: 110px;
+    height: 110px;
+    margin-top: 6px;
+    display: flex;
+    align-items: center;
+    padding: 4px;
+}
+
+.myskillset-skill:hover {
+    font-weight: 500;
+    color: rgb(249, 196, 81);
+}
+
+.image-skill {
+    width: 60%;
+    transition-duration: 200ms;
+}
+
+.image-skill:hover {
+    width: 70%;
+}
